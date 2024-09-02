@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Riwatex Game. Play and Earn RTX token</title>
+  <meta name="theme-color" content="#141414">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+  <link href="css/style.min.css" type="text/css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="js/vendor.min.js" defer></script>
+  <script src="js/app.min.js" defer></script>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="/">
+          <img src="img/icons/logo.svg" alt="Riwatex">
+        </a>
+        <nav class="header__burger js-burger">
+          <ul class="header__links">
+            <li class="header__link">
+              <a href="#about">Что такое RTX? </a>
+            </li>
+            <li class="header__link">
+              <a href="#steps">Как играть в Riwatex Game?</a>
+            </li>
+            <li class="header__link">
+              <a href="burn.html">RTX Burn</a>
+            </li>
+            <li class="header__link">
+              <a href="#roadmap">Roadmap</a>
+            </li>
+            <li class="header__link">
+              <a href="whitepaper.pdf" target="_blank">White Paper</a>
+            </li>
+            <li class="header__socials">
+              <a class="header__social" href="https://t.me/riwatex" target="_blank"></a>
+              <a class="header__social header__social--x" href="https://x.com/RiwatexApp" target="_blank"> </a>
+            </li>
+            <li class="header__lang js-langBtn">
+              <div class="header__lang-img"></div>
+              <span>RU</span>
+              <a class="header__lang-link" href="#">EN</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__burger-btn js-burgerBtn" type="button"></button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="descriptor">
+        <div class="container">
+          <h2 class="descriptor__title">
+            <span>ИГРАЙ &</span>
+            <span>ЗАРАБАТЫВАЙ</span>
+          </h2>
+          <h1 class="descriptor__subtitle">Riwatex Token [RTX]</h1>
+          <p class="descriptor__text">Готовы&nbsp;ли вы&nbsp;превратить свои клики в&nbsp;ценную криптовалюту?
+            <br> Присоединяйтесь к&nbsp;приложению, где каждое нажатие принесет доход
+          </p>
+          <div class="descriptor__motivation">
+            <a class="descriptor__link" href="https://t.me/riwatex_app_bot" target="_blank">ИГРАТЬ СЕЙЧАС</a>
+            <div class="descriptor__users">
+              <div class="descriptor__avatars">
+                <div class="descriptor__avatar">
+                  <img src="img/icons/memoji1.svg" alt="user">
+                </div>
+                <div class="descriptor__avatar">
+                  <img src="img/icons/memoji2.svg" alt="user">
+                </div>
+                <div class="descriptor__avatar">
+                  <img src="img/icons/memoji3.svg" alt="user">
+                </div>
+                <div class="descriptor__avatar">
+                  <img src="img/icons/memoji4.svg" alt="user">
+                </div>
+                <div class="descriptor__avatar">
+                  <img src="img/icons/memoji5.svg" alt="user">
+                </div>
+              </div>
+              <div class="descriptor__count">
+                <p>Будь первым</p>
+                <span>Зарабатывай уже сейчас!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__dots">
+              <div class="about__dot"></div>
+              <div class="about__dot"></div>
+              <div class="about__dot"></div>
+            </div>
+            <h2 class="about__title">Что такое RTX?</h2>
+            <p class="about__text">RTX&nbsp;&mdash; Utility-токен, который можно будет использовать в&nbsp;экосистеме Riwatex</p>
+            <p class="about__hint">Удерживая токен вы&nbsp;получите большие
+              <br>преимущества при работе с&nbsp;Riwatex
+            </p>
+            <div class="about__coin js-coin">
+              <img src="img/coin.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="line">
+        <span>Листинг токена RTX в III квартале 2024 года</span>
+        <span>Листинг токена RTX в III квартале 2024 года</span>
+        <span>Листинг токена RTX в III квартале 2024 года</span>
+      </div>
+      <section class="steps" id="steps">
+        <div class="container">
+          <div class="steps__head">
+            <h2 class="steps__title">Как играть в&nbsp;Riwatex&nbsp;Game?</h2>
+            <a class="steps__link steps__link--desktop" href="https://t.me/riwatex_app_bot" target="_blank">ИГРАТЬ СЕЙЧАС</a>
+          </div>
+          <div class="title-lines">
+            <span> </span>
+            <span> </span>
+          </div>
+          <ul class="steps__list">
+            <li class="steps__item">
+              <h3 class="steps__item-title">ТАПАЙ
+                <br>И ПОЛУЧАЙ
+                <br>ТОКЕНЫ
+              </h3>
+              <p class="steps__item-text">Даже твой кот
+                <br>сможет заработать
+              </p>
+            </li>
+            <li class="steps__item">
+              <h3 class="steps__item-title">ПРИГЛАШАЙ
+                <br>ДРУЗЕЙ
+                <br>И ПОЛУЧАЙ
+                <br>НАГРАДУ
+              </h3>
+              <p class="steps__item-text">Участвуй в&nbsp;реферальной программе и получай до&nbsp;3%&nbsp;от&nbsp;их&nbsp;тапов</p>
+            </li>
+            <li class="steps__item">
+              <h3 class="steps__item-title">ПРОКАЧИВАЙ
+                <br>УРОВЕНЬ ЧТОБЫ
+                <br>ЗАРАБОТАТЬ
+                <br>БОЛЬШЕ
+              </h3>
+              <p class="steps__item-text">Чем выше уровень,
+                <br>тем выше награда
+              </p>
+            </li>
+          </ul>
+          <a class="steps__link" href="https://t.me/riwatex_app_bot" target="_blank">ИГРАТЬ СЕЙЧАС</a>
+        </div>
+      </section>
+      <section class="nft" id="nft">
+        <div class="container">
+          <div class="nft__head">
+            <h2 class="nft__title">NFT Riwatex Heroes</h2>
+            <a class="nft__link nft__link--desktop" href="https://getgems.io/riwatex" target="_blank">
+              <img src="img/icons/getgems.svg" alt="Getgems">
+              <span>Перейти на Getgems</span>
+            </a>
+          </div>
+          <div class="title-lines">
+            <span> </span>
+            <span> </span>
+          </div>
+        </div>
+        <div class="nft-gallary swiper js-nftSlider">
+          <ul class="nft__imgs swiper-wrapper">
+            <li class="nft__img swiper-slide">
+              <img src="img/nft/nft1.jpg" alt="NFT">
+            </li>
+            <li class="nft__img swiper-slide">
+              <img src="img/nft/nft2.jpg" alt="NFT">
+            </li>
+            <li class="nft__img swiper-slide">
+              <img src="img/nft/nft3.jpg" alt="NFT">
+            </li>
+            <li class="nft__img swiper-slide">
+              <img src="img/nft/nft4.jpg" alt="NFT">
+            </li>
+            <li class="nft__img swiper-slide">
+              <img src="img/nft/nft5.jpg" alt="NFT">
+            </li>
+            <li class="nft__img swiper-slide">
+              <img src="img/nft/nft6.jpg" alt="NFT">
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <div class="nft__description">Покупайте NFT коллекции Riwatex Heroes и&nbsp;получайте преимущества при фарминге токенов. Проявляйте активность в&nbsp;<a href="https://t.me/riwatex_app_bot" target="_blank">приложении</a> и&nbsp;получите шанс выиграть эксклюзивные NFT.</div>
+          <a class="nft__link" href="https://getgems.io/riwatex" target="_blank">
+            <img src="img/icons/getgems.svg" alt="Getgems">
+            <span>Перейти на Getgems</span>
+          </a>
+        </div>
+      </section>
+      <section class="roadmap" id="roadmap">
+        <div class="container">
+          <h2 class="roadmap__title">Roadmap</h2>
+          <div class="title-lines">
+            <span> </span>
+            <span> </span>
+          </div>
+          <ol class="roadmap__list">
+            <li class="roadmap__item roadmap__item--active">
+              <div class="roadmap__date">Декабрь 2023</div>
+              <div class="roadmap__text">Начало разработки платформы riwatex.com</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap1.svg">
+              </div>
+            </li>
+            <li class="roadmap__item roadmap__item--active">
+              <div class="roadmap__date">Июнь 2024</div>
+              <div class="roadmap__text">Привлечение первого раунда финансирования в&nbsp;размере $2M от&nbsp;частных инвесторов</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap2.svg">
+              </div>
+            </li>
+            <li class="roadmap__item roadmap__item--active">
+              <div class="roadmap__date">Июль 2024</div>
+              <div class="roadmap__text">Запуск приложения Riwatex Game от Riwatex</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap3.svg">
+              </div>
+            </li>
+            <li class="roadmap__item roadmap__item--current">
+              <div class="roadmap__current">Мы находимся здесь</div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">Q3 2024</div>
+              <div class="roadmap__text">
+                <span>New</span> Добавление кошелька в приложение Riwatex Game от Riwatex
+              </div>
+              <div class="roadmap__icon">
+                <img src="img/icons/money-bag.svg">
+              </div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">Q3 2024</div>
+              <div class="roadmap__text">
+                <span>New</span> Выпуск токена RTX на блокчейне TON
+              </div>
+              <div class="roadmap__icon">
+                <img src="img/icons/ton.svg">
+              </div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">Q3 2024</div>
+              <div class="roadmap__text">
+                <span>New</span> Открытие секции «Торговля» и листинг пары RTX/USDT в приложении Riwatex Game от Riwatex
+              </div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap5.svg">
+              </div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">Q1 2025</div>
+              <div class="roadmap__text">Запуск платформы riwatex.com</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap4.svg">
+              </div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">N/A 2025</div>
+              <div class="roadmap__text">Перенос балансов пользователей из игры на платформу</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap6.svg">
+              </div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">Март 2026</div>
+              <div class="roadmap__text">Разблокировка токенов 1-го этапа 1-ой очереди</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap7.svg">
+              </div>
+            </li>
+            <li class="roadmap__item">
+              <div class="roadmap__date">Март 2027</div>
+              <div class="roadmap__text">Разблокировка 5-го этапа 5-й очереди</div>
+              <div class="roadmap__icon">
+                <img src="img/icons/roadmap8.svg">
+              </div>
+            </li>
+          </ol>
+          <a class="roadmap__link" href="whitepaper.pdf" target="_blank">White Paper</a>
+        </div>
+      </section>
+      <section class="faq" id="faq">
+        <div class="container">
+          <h2 class="faq__title">FAQ</h2>
+          <ul class="faq__list">
+            <li class="faq__item js-questionItem">
+              <h3 class="faq__question js-question">Как зарабатывать токены RTX?</h3>
+              <div class="faq__answer">Для того чтобы начать зарабатывать RTX заходите в&nbsp;приложение Riwatex Game и&nbsp;начинайте играть вместе с&nbsp;миллионами пользователей по&nbsp;всему миру! Приглашайте друзей и&nbsp;прокачивайте свой уровень для более быстрого заработка RTX.</div>
+            </li>
+            <li class="faq__item js-questionItem">
+              <h3 class="faq__question js-question">Сколько всего выпущено токенов RTX?</h3>
+              <div class="faq__answer">Общая эмиссия токенов составляет 6&nbsp;480&nbsp;000&nbsp;000&nbsp;000&nbsp;RTX и&nbsp;они распределяются следующим образом: 72% токенов добывают пользователи, играя в&nbsp;Riwatex Game, 28% токенов остается в&nbsp;Riwatex, для дальнейшего развития новых продуктов, комьюнити и&nbsp;экосистемы в&nbsp;целом.</div>
+            </li>
+            <li class="faq__item js-questionItem">
+              <h3 class="faq__question js-question">Где я смогу использовать токен RTX?</h3>
+              <div class="faq__answer">Токен RTX может быть использован в&nbsp;экосистеме Riwatex, а&nbsp;также на&nbsp;DEX, где он&nbsp;будет доступен.</div>
+            </li>
+            <li class="faq__item js-questionItem">
+              <h3 class="faq__question js-question">Когда я&nbsp;смогу воспользоваться своими RTX токенами?</h3>
+              <div class="faq__answer">Воспользоваться RTX вы&nbsp;сможете сразу после переноса балансов из&nbsp;приложения на&nbsp;аккаунт Riwatex.</div>
+            </li>
+            <li class="faq__item js-questionItem">
+              <h3 class="faq__question js-question">На&nbsp;каких блокчейнах будет доступен токен RTX?</h3>
+              <div class="faq__answer">Изначально токен RTX будет выпущен на&nbsp;блокчейне TON. Но&nbsp;не&nbsp;исключена возможность выпуска токенов на&nbsp;других блокчейнах.</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <foooter class="footer">
+      <div class="container">
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a href="#">О нас</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Политика конфиденциальности</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Наши контакты</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Условия использования</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">AML политика</a>
+          </li>
+        </ul>
+        <div class="footer__box">
+          <div class="footer__copyright">© Riwatex 2024. Все права защищены</div>
+          <a class="footer__link" href="https://riwatex.com/" target="_blank">riwatex.com</a>
+        </div>
+      </div>
+    </foooter>
+  </div>
+</body>
+
+</html>

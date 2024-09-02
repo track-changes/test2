@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Riwatex Game. Play and Earn RTX token</title>
+  <meta name="theme-color" content="#141414">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+  <link href="css/style.min.css" type="text/css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="js/vendor.min.js" defer></script>
+  <script src="js/app.min.js" defer></script>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="/">
+          <img src="img/icons/logo.svg" alt="Riwatex">
+        </a>
+        <nav class="header__burger js-burger">
+          <ul class="header__links">
+            <li class="header__link">
+              <a href="#about">Что такое RTX? </a>
+            </li>
+            <li class="header__link">
+              <a href="#steps">Как играть в Riwatex Game?</a>
+            </li>
+            <li class="header__link">
+              <a href="burn.html">RTX Burn</a>
+            </li>
+            <li class="header__link">
+              <a href="#roadmap">Roadmap</a>
+            </li>
+            <li class="header__link">
+              <a href="whitepaper.pdf" target="_blank">White Paper</a>
+            </li>
+            <li class="header__socials">
+              <a class="header__social" href="https://t.me/riwatex" target="_blank"></a>
+              <a class="header__social header__social--x" href="https://x.com/RiwatexApp" target="_blank"> </a>
+            </li>
+            <li class="header__lang js-langBtn">
+              <div class="header__lang-img"></div>
+              <span>RU</span>
+              <a class="header__lang-link" href="#">EN</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__burger-btn js-burgerBtn" type="button"></button>
+      </div>
+    </header>
+    <main class="main">
+      <div id="stars-container">
+        <div id="stars"></div>
+        <div id="stars2"> </div>
+        <div id="stars3"></div>
+      </div>
+      <section class="burn">
+        <div class="container">
+          <div class="burn-head">
+            <h1 class="burn__title">RTX TOKEN</h1>
+            <h2 class="burn__subtitle">Намайнено игроками:</h2>
+            <div class="burn__total">2 426 267 586,97</div>
+          </div>
+          <div class="burn-issue">
+            <div class="burn__block">
+              <div class="burn__block-dots">
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+              </div>
+              <div class="burn__block-head">
+                <div class="burn__block-value">
+                  <div class="burn__block-tooltip">
+                    <span class="js-showClue">Токенов в обороте:</span>
+                    <div class="tooltip">
+                      <div class="tooltip__inner">
+                        <p>Токены в обороте рассчитываются как: (Всего намайнено *минус* всего сожжено)</p>
+                        <div class="tooltip__close js-closeTooltip"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="burn__block-number js-availableToken">2 426 267 586,97 RTX </div>
+                </div>
+                <div class="burn__block-value">
+                  <div class="burn__block-tooltip">
+                    <span class="js-showClue">Всего сожжено</span>
+                    <div class="tooltip">
+                      <div class="tooltip__inner">
+                        <p>Неизвестный верстальщику текст</p>
+                        <div class="tooltip__close js-closeTooltip"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="burn__block-number js-numberBurn">100 000 000 RTX</div>
+                </div>
+              </div>
+              <div class="burn__progress js-burnProgress">
+                <div class="burn__progress-line">
+                  <div class="burn__progress-green js-progressGreen" data-number="5 217 554 928"></div>
+                  <div class="burn__progress-red js-progressRed"></div>
+                </div>
+              </div>
+              <div class="burn__stats">
+                <div class="burn__block-tooltip">
+                  <span class="js-showClue">0</span>
+                  <div class="tooltip">
+                    <div class="tooltip__inner">
+                      <p>Неизвестный верстальщику текст</p>
+                      <div class="tooltip__close js-closeTooltip"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="burn__info">
+                  <div class="burn__info-item">Намайнено</div>
+                  <div class="burn__info-item burn__info-item--red">Сожжено</div>
+                </div>
+                <div class="burn__block-tooltip">
+                  <span class="js-showClue js-totalNumber">6 480 000 000 000</span>
+                  <div class="tooltip">
+                    <div class="tooltip__inner">
+                      <p>Неизвестный верстальщику текст</p>
+                      <div class="tooltip__close js-closeTooltip"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="burn-cards">
+            <div class="burn__block">
+              <div class="burn__block-dots">
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+              </div>
+              <div class="burn__block-head burn__block-head--tablet">
+                <div class="burn__block-value">
+                  <div class="burn__block-tooltip">
+                    <span class="js-showClue">Q3 2024 сожжено:</span>
+                    <div class="tooltip">
+                      <div class="tooltip__inner">
+                        <p>Неизвестный верстальщику текст</p>
+                        <div class="tooltip__close js-closeTooltip"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="burn__block-number">100 000 000 RTX</div>
+                </div>
+                <a class="burn__block-link burn__block-link--tablet" href="#" target="_blank">View Details</a>
+              </div>
+              <div class="burn__block-footer">
+                <div class="burn__block-price">10 000 000 USDT</div>
+                <div class="burn__block-average">Ср. цена: <span>1 000 USDT</span>
+                </div>
+                <a class="burn__block-link" href="#" target="_blank">View Details</a>
+              </div>
+            </div>
+            <div class="burn__block">
+              <div class="burn__block-dots">
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+              </div>
+              <div class="burn__block-head burn__block-head--tablet">
+                <div class="burn__block-value">
+                  <div class="burn__block-tooltip">
+                    <span class="js-showClue">Q4 2024 сожжено:</span>
+                    <div class="tooltip">
+                      <div class="tooltip__inner">
+                        <p>Неизвестный верстальщику текст</p>
+                        <div class="tooltip__close js-closeTooltip"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="burn__block-number">100 000 000 RTX</div>
+                </div>
+                <a class="burn__block-link burn__block-link--tablet" href="#" target="_blank">View Details</a>
+              </div>
+              <div class="burn__block-footer">
+                <div class="burn__block-price">10 000 000 USDT</div>
+                <div class="burn__block-average">Ср. цена: <span>1 000 USDT</span>
+                </div>
+                <a class="burn__block-link" href="#" target="_blank">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="burn-history">
+            <div class="burn__block">
+              <div class="burn__block-dots">
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+                <div class="burn__block-dot"></div>
+              </div>
+              <div class="burn__block-title">История сжигания</div>
+              <div class="burn__block-table">
+                <div class="burn__block-row">
+                  <div class="burn__block-cell">20 secs ago</div>
+                  <div class="burn__block-cell">Burn Token</div>
+                  <a class="burn__block-cell burn__block-cell--link" href="#" target="_blank">Riwatex</a>
+                  <div class="burn__block-cell">0.03607 RTX</div>
+                </div>
+                <div class="burn__block-row">
+                  <div class="burn__block-cell">20 secs ago</div>
+                  <div class="burn__block-cell">Burn Token</div>
+                  <a class="burn__block-cell burn__block-cell--link" href="#" target="_blank">Riwatex</a>
+                  <div class="burn__block-cell">0.03607 RTX</div>
+                </div>
+                <div class="burn__block-row">
+                  <div class="burn__block-cell">20 secs ago</div>
+                  <div class="burn__block-cell">Burn Token</div>
+                  <a class="burn__block-cell burn__block-cell--link" href="#" target="_blank">Riwatex</a>
+                  <div class="burn__block-cell">0.03607 RTX</div>
+                </div>
+                <div class="burn__block-row">
+                  <div class="burn__block-cell">20 secs ago</div>
+                  <div class="burn__block-cell">Burn Token</div>
+                  <a class="burn__block-cell burn__block-cell--link" href="#" target="_blank">Riwatex</a>
+                  <div class="burn__block-cell">0.03607 RTX</div>
+                </div>
+                <div class="burn__block-row">
+                  <div class="burn__block-cell">20 secs ago</div>
+                  <div class="burn__block-cell">Burn Token</div>
+                  <a class="burn__block-cell burn__block-cell--link" href="#" target="_blank">Riwatex</a>
+                  <div class="burn__block-cell">0.03607 RTX</div>
+                </div>
+              </div>
+              <a class="burn__block-more" href="#" target="_blank">Открыть историю на Tonviewer</a>
+            </div>
+          </div>
+          <div class="burn-disclaimer">
+            <h5 class="burn-disclaimer__title">Сколько всего выпущено токенов RTx?</h5>
+            <p class="burn-disclaimer__text">Общая эмиссия токенов составляет 6 480 000 000 000 RTx и они распределяются следующим образом: 72% токенов добывают пользователи, играя в Riwatex Game, 28% токенов остается в Riwatex, для дальнейшего развития новых продуктов, комьюнити и экосистемы в целом.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <foooter class="footer">
+      <div class="container">
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a href="#">О нас</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Политика конфиденциальности</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Наши контакты</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Условия использования</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">AML политика</a>
+          </li>
+        </ul>
+        <div class="footer__box">
+          <div class="footer__copyright">© Riwatex 2024. Все права защищены</div>
+          <a class="footer__link" href="https://riwatex.com/" target="_blank">riwatex.com</a>
+        </div>
+      </div>
+    </foooter>
+  </div>
+</body>
+
+</html>
