@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Riwatex Game. Play and Earn RTX token</title>
+  <meta name="theme-color" content="#141414">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, viewport-fit=cover, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+  <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+  <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+  <link href="css/style.min.css" type="text/css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="js/vendor.min.js" defer></script>
+  <script src="js/app.min.js" defer></script>
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="/">
+          <img src="img/icons/logo.svg" alt="Riwatex">
+        </a>
+        <nav class="header__burger js-burger">
+          <ul class="header__links">
+            <li class="header__link">
+              <a href="#about">Что такое RTX? </a>
+            </li>
+            <li class="header__link">
+              <a href="burn.html">Token Burning</a>
+            </li>
+            <li class="header__link">
+              <a href="#roadmap">Roadmap</a>
+            </li>
+            <li class="header__link">
+              <a href="whitepaper.pdf" target="_blank">White Paper</a>
+            </li>
+            <li class="header__play">
+              <a href="https://t.me/riwatex_app_bot" target="_blank">
+                <img src="img/icons/rtx.svg" alt="RTX">
+                <span>Play</span>
+              </a>
+            </li>
+            <li class="header__socials">
+              <a class="header__social" href="https://t.me/riwatex" target="_blank"></a>
+              <a class="header__social header__social--x" href="https://x.com/RiwatexApp" target="_blank"> </a>
+            </li>
+            <li class="header__lang js-langBtn">
+              <div class="header__lang-img"></div>
+              <span>RU</span>
+              <a class="header__lang-link" href="#">EN</a>
+            </li>
+            <li class="header__play header__play--desktop">
+              <a href="https://t.me/riwatex_app_bot" target="_blank">
+                <img src="img/icons/rtx.svg" alt="RTX">
+                <span>Play</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="header__burger-btn js-burgerBtn" type="button"></button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="full" id="stars-container">
+        <div id="stars"></div>
+        <div id="stars2"> </div>
+        <div id="stars3"></div>
+      </div>
+      <section class="info">
+        <div class="container">
+          <a class="info__back" href="/">На главную</a>
+          <div class="info__title">
+            <img src="img/icons/rtxm.svg" alt="rtx">
+            <b>RTXM TOKEN</b>
+            <span>INFO</span>
+          </div>
+          <div class="info__links">
+            <a class="info__link" href="https://tonviewer.com/EQBErDKETdn6jyxLtYigE-TPmXKm3AvbQVqAnDWNuCnWD4XP" target="_blank">
+              <img src="img/icons/jetton.svg" alt="jetton master">
+              <span>Jetton Master</span>
+            </a>
+            <a class="info__link" href="https://dedust.io/swap/TON/EQBErDKETdn6jyxLtYigE-TPmXKm3AvbQVqAnDWNuCnWD4XP" target="_blank">
+              <img src="img/icons/dedust.svg" alt="jetton master">
+              <span>DeDust Swap</span>
+            </a>
+            <a class="info__link" href="https://dexscreener.com/ton/EQBErDKETdn6jyxLtYigE-TPmXKm3AvbQVqAnDWNuCnWD4XP" target="_blank">
+              <img src="img/icons/dex.svg" alt="jetton master">
+              <span>DEX Screener</span>
+            </a>
+            <a class="info__link" href="https://www.geckoterminal.com/ton/pools/EQCxupvOjIHLJ0TGf5z8FOyEiTUeDfX7VZzfYXrDLSt2TWyp" target="_blank">
+              <img src="img/icons/geckoterminal.svg" alt="jetton master">
+              <span>Gecko Terminal</span>
+            </a>
+          </div>
+          <div class="info__text">
+            <h5>Токеномика $RTXM и применение в Riwatex:</h5>
+            <ol>
+              <li>Токен $RTXM является вторым токеном после $RTX в&nbsp;экосистеме Riwatex. Это не&nbsp;означает, что он&nbsp;хуже или лучше, просто он&nbsp;будет иметь иное применение.</li>
+              <li>Riwatex изначально задумывался как биржевая платформа, которая будет оказывать услуги по&nbsp;торговле на&nbsp;фьючерсных и&nbsp;спотовых рынках, а&nbsp;также предоставлять услуги стейкинга и&nbsp;процессинга. Именно для поддержания этих направлений был запущен токен $RTX.</li>
+              <li>Параллельно с&nbsp;развитием биржевых продуктов мы&nbsp;будем развивать раздел &laquo;Prediction&raquo; для которого токен $RTXM будет утилитарным.</li>
+            </ol>
+            <h5>Какие преимущества будет давать $RTXM:</h5>
+            <ol>
+              <li>Стандартный набор криптовалют, на&nbsp;которые можно будет сделать прогноз будет ограничен (Bitcoin, Ethereum, TON). Владельцам $RTXM будет доступен расширенный набор криптовалют для прогнозирования.</li>
+              <li>В&nbsp;последующих обновлениях, коэффициенты на&nbsp;успешные прогнозы будут включать в&nbsp;себя комиссию от&nbsp;1&nbsp;до&nbsp;3%. Оплачивая размещение прогноза в&nbsp;$RTXM пользователь будет получать прибыль без комиссий.</li>
+            </ol>
+            <p>Текущая эмиссия $RTXM составляет 1&nbsp;000&nbsp;000&nbsp;000&nbsp;токенов.&nbsp;5%&nbsp;из&nbsp;заработанных средств в&nbsp;разделе Prediction будут направлены на&nbsp;выкуп $RTXM и&nbsp;последующее сжигание токенов. Так мы&nbsp;планируем поддерживать цену и&nbsp;обеспечить устойчивый рост $RTXM.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <foooter class="footer">
+      <div class="container">
+        <ul class="footer__items">
+          <li class="footer__item">
+            <a href="#">О нас</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Политика конфиденциальности</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Наши контакты</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">Условия использования</a>
+          </li>
+          <li class="footer__item">
+            <a href="#">AML политика</a>
+          </li>
+        </ul>
+        <div class="footer__box">
+          <div class="footer__copyright">© Riwatex 2024. Все права защищены</div>
+          <a class="footer__link" href="https://riwatex.com/" target="_blank">riwatex.com</a>
+        </div>
+      </div>
+    </foooter>
+  </div>
+</body>
+
+</html>
